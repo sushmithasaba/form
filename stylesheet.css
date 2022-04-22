@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: 'Lora', serif;
+    color: black;
+}
+body{
+     background-image: -webkit-gradient(linear, left top, right bottom, from(#4863A0), to(#4863A0));
+     background-image: linear-gradient(to right bottom, #4863A0, #4863A0);
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+main,section{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255,.8);
+    -webkit-box-shadow:inset 2px 1px 4px white,2px 3px 6px #555;
+    box-shadow:inset 2px 1px 4px white,2px 3px 6px #555;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 739px) {
+main,section{
+    width: 90%;
+    padding: 10px;
+    text-align: start;
+    font-size: 50%;
+    }
+}
+.btn a{
+    padding: 5px !important;
+    background-color: darkgrey;
+    -webkit-box-shadow: 0 1rem 2rem #383838;
+    box-shadow: 0 1rem 2rem #383838;
+    border: 2px solid black;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+    position: absolute;
+    right: 50%;
+    border-radius: 5px;
+}
+
+.btn a:hover{
+    -webkit-transform: translateY(-.3rem);
+    transform: translateY(-.3rem);
+    -webkit-box-shadow:inset 2px 1px 4px white,2px 3px 6px #555;
+    box-shadow:inset 2px 1px 4px white,2px 3px 6px #555;
+    -webkit-transform: scaleX(1.1) scaleY(1.1);
+    transform: scaleX(1.1) scaleY(1.1);
+}
+.introduction{
+    margin-top: 25px;
+}
+.introduction .intro-para{
+    font-size: 14px;
+}
+
+.introduction .intro, .form a, .intro a{
+    font-size: 14px;
+}
+.introduction .intro a{ margin-right: 10px;font-size: 12px;
+}
+
+.form-card label{
+    display: inline-block;
+    font-size: 14px;
+}
+@media only screen and (max-width: 739px) {
+    .form-card label{
+    text-align: start;
+    margin-left: 0;
+}
+}
+.form-card label::after{
+    content: "*";
+    color: red;
+    margin-left: 3px;
+}
+.form-card input[type=text],.form-card input[type=email],.form-card input[type=tel],form select{
+    display: block;
+    width: 80%;
+    border:0px;
+    margin-bottom: 15px;
+    border-bottom: 1.5px solid white;
+    background-color: transparent;
+    outline: none;
+    color: darkblue;    
+    -webkit-transition: all .3s;    
+    transition: all .3s;
+    font-size: 12px;
+}
+@media only screen and (max-width: 739px) {
+    .form-card input[type=text],.form-card input[type=email],.form-card input[type=tel],form select{
+    border:0px;
+    margin-bottom: 15px;
+    border-bottom: 1.5px solid white;
+    background-color: transparent;
+    outline: none;
+    color: darkblue;    
+    -webkit-transition: all .3s;    
+    transition: all .3s;
+    font-size: 12px;
+}
+    .form-card input[type=text] placeholder,.form-card input[type=email] placeholder,.form-card input[type=tel] placeholder{
+        font-size: 12px;
+    }
+    
+}
+
+.form-card input[type=date]{
+     width:25%;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: white;
+    outline: none;
+    color: darkblue;    
+    font-size: 12px;
+    padding: 8px;
+}
+
+
+.form-card input[type=text]:focus,.form-card input[type=email]:focus,.form-card input[type=tel]:focus{
+    border-bottom: 1.5px solid black;
+}
+.form-card input[type=radio]{
+    margin: 10px;
+}
+.intro a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.edu-title,.contact-title,.intern-title,.ref-title{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 6px 3px;
+    text-transform: uppercase;
+    -webkit-box-shadow:inset 2px 1px 4px white,1px 1px 4px #555;
+    box-shadow:inset 2px 1px 4px white,1px 1px 4px #555;
+}
+
+.edu-title span,.contact-title span,.intern-title span,.ref-title span{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.intern-details ul{
+    font-size: 14px;
+}
+
+.nil::after{
+    content: "" !important;
+}
+
+footer{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+.intern-details p{
+    font-size: 14px;
+    font-weight: bold;
+}

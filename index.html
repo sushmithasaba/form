@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    
+    <!---Fontawesone----->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    
+    <!---Bootstrap------>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <title> Intern Form </title>
+</head>
+<body>
+<section class="introduction">
+    <h2 class="intro-heading"> KGE Technologies Pvt Ltd - Internship Registration</h2>
+    <p class="intro-para">Basic Form for Internship Registration in KGE Technologies Pvt Ltd. <br>Internship would be work from Home for candidates till 2022, but wont be mentioned in any documents</p>
+    <div class="intro">
+        <p><a href="https://accounts.google.com/Login" target="_blank">sign into your g-account</a>to save your progress.</p>
+    </div>
+</section>
+<section>
+    <form>
+        <fieldset>
+            <div class="form-card">
+               <label for="Email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email ID" >
+                <label for="Full-name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your Name">
+                <label for="City">City</label>
+                <input type="text" id="city" placeholder="Enter your location" >
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+<section class="edu-section">
+    <h2 class="edu-title">Educational Information:
+        <span>Tell us about educational details.</span>
+</h2>
+    <form>
+        <fieldset>
+            <div class="form-card">
+               <label for="cgl-details">Current Degree & Branch </label>
+                <input type="text" id="cgl-details" placeholder="Your Answer..." required>
+                <label for="Full-name">Passed Out Year</label>
+                <input type="date" id="year">
+                </div>
+        </fieldset>
+    </form>
+</section>
+<section class="contact-section">
+    <h2 class="contact-title">Contact Information:
+    <span>How to reach you out ?</span>
+    </h2>
+    <form>
+        <fieldset>
+            <div class="form-card">
+               <label for="mobile">Mobile Number </label>
+                <input type="tel" id="mobile" placeholder="Your Answer..." required>
+                <label for="whatsapp">Whatsapp Number</label>
+                <input type="tel" id="whatsapp" placeholder="Your Answer...">
+                </div>
+        </fieldset>
+    </form>
+</section>
+<section class="intern-section">
+    <h2 class="intern-title">Area of Interest:
+    <span>What area you internship you are looking for?</span>
+</h2>
+    <form>
+        <fieldset>
+            <div class="form-card">
+               <label for="field">Internship Applied for ? </label>
+                <select name="field" id="field">
+    <option value="HR">HR</option>
+    <option value="PHP">PHP</option>
+    <option value="Photoshop">Photoshop</option>
+    <option value="HTML">HTML</option>
+    <option value="Angular">Angular</option>
+    <option value="Flutter">Flutter</option>
+    <option value="Marketing">Marketing</option>
+    <option value="Sales">Sales</option>
+    <option value="BBA">BBA</option>
+    <option value="MBA">MBA</option>
+    <option value="JAVA Developer">JAVA Developer</option>
+    <option value="IOS Developer">IOS Developer</option>
+    <option value="Software">Software</option>
+    <option value="Network">Network</option>
+    <option value="Hardware">Hardware</option>
+    <option value="Others">Others</option>
+</select>
+                <label for="whatsapp">If Others, then please provide details about it.</label>
+                <input type="text" id="whatsapp" placeholder="Your Answer...">
+                </div>
+        </fieldset>
+    </form>
+</section>
+<section class="intern-details">
+    <h2 class="intern-title">Intership Options</h2>
+
+    <p>        <strong>Option Details</strong><br>
+Option 1: Only Certificate</p>
+    <ul>
+        <li>We would issue you an Internship offer letter, completion letter on company letterhead, corporate email id, LinkedIn profile tagging & Recommendation.</li>
+        <li>Still, you can work on a project but we won't expect a 100% output from you.
+        </li>
+        <li>Enrollment Charges Applicable: 1500INR or 30USD/- for Up to 6 Months Intern Date.
+        </li>
+    </ul>
+   <p> Option 2: If you want to do the project work for KGE Technologies for real-time projects for free.
+       How it works.</p>
+    <ul>
+        <li>We will mail you an offer of internship via email for a minimum of 1-6 months, based on your needs</li>
+        <li>Regularly work on assigned work and give 100% output.
+        </li>
+        <li>Office Timing Mon-Friday & 1st,3rd Sat 9AM to 5.30PM, attendance mandatory, you need to login to the tool in your desktop/laptop to track the same. Allowed to take leave during exams.
+        </li>
+        <li>You need to have desktop or laptop to work on project.
+        </li>
+        <li>Once completed the project work with at least 90% output- we would give Internship Offer and completion Letter, LinkedIn profile Tagging with Company.
+        </li>
+        <li>Stipend: Nil during an internship, one time incentive based on output at last if contribution is excellent and min 90% output is given.
+        </li>
+        <li>For Time passers this is not suitable option, we need dedicated candidates to work on at least 4hrs per day
+        </li>
+    </ul>
+    <form class="form-card">
+    <label>What would you like to choose? </label><br>
+        
+        <input type="radio" id="Option-1" name="intern_option" value="Option-1">
+      <label for="Option-1" class="nil">Option-1</label><br>
+      <input type="radio" id="Option-2" name="intern_option" value="Option-2">
+      <label for="Option-2"  class="nil">Option-2</label><br><br>
+    
+        <label>If you have opt for option 2 in above question, Interns wont be paid any stipend/salary. Can you still contribute in our project work ? </label><br>
+        <input type="radio" id="Yes" name="stipend" value="Yes">
+      <label for="No" class="nil">Yes</label><br>
+      <input type="radio" id="No" name="stipend" value="Option-2">
+      <label for="Option-2"  class="nil">No</label><br><br>
+    
+        <label>Do you have latop/desktop with internet connectivity</label><br>
+        <input type="radio" id="Yes" name="lap" value="Yes">
+      <label for="No" class="nil">Yes</label><br>
+      <input type="radio" id="No" name="lap" value="Option-2">
+      <label for="Option-2"  class="nil">No</label><br><br>
+    
+        <label>Internship time frame</label><br>
+        <input type="radio" id="1month" name="duration" value="1month">
+      <label for="1month" class="nil">1 Month</label><br> 
+        <input type="radio" id="2month" name="duration" value="2month">
+      <label for="2month" class="nil">2 Month</label><br> 
+        <input type="radio" id="3month" name="duration" value="3month">
+      <label for="3month" class="nil">3 Month</label><br> 
+        <input type="radio" id="4month" name="duration" value="4month">
+      <label for="4month" class="nil">4 Month</label><br> 
+        <input type="radio" id="5month" name="duration" value="5month">
+      <label for="5month" class="nil">5 Month</label><br> 
+        <input type="radio" id="6month" name="duration" value="6month">
+      <label for="1month" class="nil">6 Month</label><br><br>
+        
+        <label for="start-date">Tentative Start date : </label>
+        <input type="date" id="year">
+
+      </form>
+</section> 
+<section class="reference-section">
+    <h2 class="ref-title">Reference  Information:
+        <span>Tell us about referal details.</span>
+</h2>
+    <form>
+        <fieldset>
+            <div class="form-card">
+               <label for="Referer">Referred By </label>
+                <input type="text" id="referer" placeholder="Your Answer..." required>
+                <label for="refer-detail">How did you know Internship in KGE Technologies?</label>
+                <input type="text" id="refer-detail" placeholder="Your Answer..." required>
+            <label for="to-refer">Do you want to refer your friends? please provide their contact email address or Phone Numbers.</label>
+            <input type="text" id="refer-detail" placeholder="Your Answer..." required>
+            </div>
+            </fieldset>
+    </form>
+</section>
+<div class="btn"><a onclick="submit">Submit</a></div>
+<footer>
+This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy
+
+    </footer>
+</body>
+</html>
